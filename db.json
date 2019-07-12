@@ -1,0 +1,112 @@
+{
+    "summary": {
+        "balanceAvailable": 40.02,
+        "limits": {
+            "dailyLimit": 50.1,
+            "monthlyLimit": 100.53
+        }
+    },
+    "operators": {
+        "operators": [
+            {
+                "id": 1,
+                "name": "Claro",
+                "url": "https://logodownload.org/wp-content/uploads/2014/02/claro-logo1.png"            
+            },
+            {
+                "id": 2,
+                "name": "Oi",
+                "url": "https://abrilveja.files.wordpress.com/2016/06/oi-telefonia-logo-2012-original7.jpeg"            
+            },
+            {
+                "id": 3,
+                "name": "Tim",
+                "url": "https://banner2.kisspng.com/20180717/pvs/kisspng-logo-encapsulated-postscript-telecom-italia-mobile-tim-logo-5b4e09084a0b64.7574937515318407763033.jpg"            
+            },
+            {
+                "id": 4,
+                "name": "Vivo",
+                "url": "https://iguatemi.com.br/florianopolis/sites/florianopolis/files/logo-1360165210578.png"            
+            }
+        ]
+    },
+    "products": {
+        "productList": [
+            {
+                "amount": 500
+            },
+            {
+                "amount": 1000
+            },
+            {
+                "amount": 1500
+            },
+            {
+                "amount": 2500
+            },
+            {
+                "amount": 5000
+            },
+            {
+                "amount": 10000
+            },
+            {
+                "amount": 15000
+            }
+        ]
+    },
+    "recharge": [
+        {
+            "id": 2,
+            "checkingAccountOperationId": "1",
+            "createdAt": "20/07/2019 14:00",
+            "payload": {
+                "amount": 1500,
+                "ddd": 11,
+                "operator": "CLARO",
+                "number": 987654321,
+                "checkingAccountOperationCode": "OPERATION CODE",
+                "nsu": "NSU"
+            }
+        },
+        {
+            "id": 3,
+            "checkingAccountOperationId": "2",
+            "createdAt": "20/07/2019 14:02",
+            "payload": {
+                "amount": 1500,
+                "ddd": 12,
+                "operator": "OI",
+                "number": 987654321,
+                "checkingAccountOperationCode": "OPERATION CODE",
+                "nsu": "NSU"
+            }
+        },
+        {
+            "id": 4,
+            "checkingAccountOperationId": "3",
+            "createdAt": "20/07/2019 14:05",
+            "payload": {
+                "amount": 1500,
+                "ddd": 13,
+                "operator": "TIM",
+                "number": 987654321,
+                "checkingAccountOperationCode": "OPERATION CODE",
+                "nsu": "NSU"
+            }
+        },
+        {
+            "id": 5,
+            "checkingAccountOperationId": "4",
+            "createdAt": "20/07/2019 14:10",
+            "payload": {
+                "amount": 1500,
+                "ddd": 14,
+                "operator": "VIVO",
+                "number": 987654321,
+                "checkingAccountOperationCode": "OPERATION CODE",
+                "nsu": "NSU"
+            }
+        }
+    ]
+}
